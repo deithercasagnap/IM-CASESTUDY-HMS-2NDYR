@@ -1,0 +1,72 @@
+
+#span {
+    color: #94a852;
+}
+
+h6{
+    color: #829c2b;
+}
+a {
+    text-decoration: none;
+}
+
+#navbar-content{
+    box-shadow: 0px 2px 10px rgb(175, 174, 174);
+    background-color: white;
+
+}
+
+
+#navbar-content a:hover {
+    color: #c0da6c;
+    background-color: white;
+}
+
+#about-us{
+    color: #c0da6c;
+}
+
+#our-team{
+    color: #c0da6c;
+}
+#timetable{
+    background-color: #f8f9fa ;
+}
+
+#weekly-timetable-text {
+    color: #c0da6c;
+}
+
+#footer{
+    color: #c0da6c; 
+}
+
+#text-color-h6{
+    color: #0658a4 ;
+}
+
+
+#content {
+    margin-top: 96px;
+}
+
+#footer {
+    animation: bounce 3s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-12px);
+    }
+  }
